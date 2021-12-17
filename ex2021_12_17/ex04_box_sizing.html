@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin: 20px;
+        width: 100px;
+        height: 200px;
+        background-color: indianred;
+        border: 20px solid skyblue;
+      }
+      .cn {
+        box-sizing: content-box;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: slateblue;
+        border-radius: 30px;
+      }
+      .bb {
+        box-sizing: border-box;
+        border: 10px double skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+      content-box 가로세로 너비가 콘텐츠 영역만 표시되도록
+		    	width 500-> content 500px
+			border-box 테두리르기준으로 크기를 정한다. (단, margin은 제외)
+      패딩, 컨텐츠, 보더가 포함.
+          width 500px->content 420px (합치면 500px)
+     -->
+    <div class="cn"></div>
+    <div class="bb"></div>
+  </body>
+  <p></p>
+</html>

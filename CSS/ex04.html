@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1. 전체선택자 */
+
+      /* 클래스 선택자 
+      -> 선택자를 구분해서 지정해야할때 
+      중복가능 재사용가능 동시가능
+     
+
+      */
+
+      /* 
+      계층선택자: 특정위치의 요소를 기준으로 계층적 다른 요소를 선택
+          1. 자손선택자()
+            body li {
+          2. 자식선택자(>) 
+             ul > li{}
+          3. 근접후행 선택자(+)
+            li+li{}
+        4. 후행선택자/형제선택자 (~)
+        li~span{}
+ 
+      }
+      */
+
+      h1,
+      p,
+      li {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>교육실 수업</h1>
+    <p>녹화꼭</p>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+    </ul>
+  </body>
+</html>

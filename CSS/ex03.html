@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1. 전체선택자 */
+      * {
+        color: seagreen;
+      }
+
+      /* 태그 선택자 */
+      li {
+        color: yellow;
+      }
+      p {
+        color: blue;
+      }
+
+      /* 클래스 선택자 
+      -> 선택자를 구분해서 지정해야할때 
+      중복가능 재사용가능 동시가능
+     
+
+      */
+
+      /* 
+      계층선택자: 특정위치의 요소를 기준으로 계층적 다른 요소를 선택
+          1. 자손선택자()
+            body li {
+          2. 자식선택자(>) 
+             ul > li{}
+          3. 근접후행 선택자(+)
+            li+li{}
+        4. 후행선택자/형제선택자 (~)
+        li~span{}
+ 
+      }
+      */
+      .food {
+        color: black;
+      }
+
+      #sm {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css</h1>
+    <p>웹페이지를 꾸며주는 스타일 시트언어</p>
+    <!-- ul>li*3 -->
+    <ul>
+      <li>기본</li>
+      <li>선택</li>
+      <li>스타일</li>
+    </ul>
+
+    <h1 class="food">이번주에 뭐 먹지</h1>
+    <ul class="food">
+      <li class="food" id="sm">연어</li>
+      <li class="food" id="tn">참치</li>
+      <li class="food" id="sd">샐러드</li>
+    </ul>
+
+    <h1>교육실 수업</h1>
+    <p>녹화꼭</p>
+  </body>
+</html>
