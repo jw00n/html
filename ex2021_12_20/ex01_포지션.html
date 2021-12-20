@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+      }
+
+      #static {
+        background-color: red;
+        /* position  속성 기본값 static 
+        위치속성이 비활성화
+        */
+        left: 50px;
+        top: 100px;
+      }
+
+      #relative {
+        background-color: yellow;
+        /* 기준: 본래 있던 위치 */
+        position: relative;
+        left: 50px;
+        top: 100px;
+      }
+      #absolute {
+        background-color: rgb(0, 119, 255);
+        position: absolute;
+        /* 기준: static이 아닌 부모 
+        부모가 없거나
+        부모가 statiac이라면 
+        body태그가 기준이 된다.
+        
+        */
+        top: 50px;
+        left: 30px;
+      }
+      #fixed {
+        background-color: rgb(0, 255, 85);
+        /* 부모와 스크롤 전부 무시
+        기준 최상위태그 - body*/
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="static"></div>
+    <div id="relative"></div>
+    <div id="absolute"></div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div id="fixed"></div>
+  </body>
+</html>
