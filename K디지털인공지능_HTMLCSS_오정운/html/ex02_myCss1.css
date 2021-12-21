@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+#red {
+  background-color: red;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+#green {
+  background-color: green;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  position: relative;
+  left: 100px;
+}
+#blue {
+  background-color: blue;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  position: relative;
+  left: 200px;
+}
+#gray {
+  background-color: gray;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  position: relative;
+  left: 300px;
+}
