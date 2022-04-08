@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ForTest</string>
+
+
+    <!-- Question 1-->
+    <string name="btnFirst">첫번째 버튼</string>
+    <string name="btnSecond">두번째 버튼</string>
+    <string name="btnThird">세번째 버튼</string>
+
+</resources>
